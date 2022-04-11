@@ -1,0 +1,15 @@
+
+
+.avatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fde3cf;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.avatar strong{
+  color: #f56a00;
+}

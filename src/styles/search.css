@@ -1,0 +1,37 @@
+
+
+.search-container{
+}
+
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    height: 50px;
+    width: 450px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px rgba(0,0,0,.05);
+}
+
+.search-input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+
+
+
+/* Responsive */
+
+
+@media (max-width:400px) {
+    .search{
+        width: 350px;
+    }
+}
